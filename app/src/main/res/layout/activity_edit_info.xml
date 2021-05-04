@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.EditInfoActivity">
+
+    <include
+        layout="@layout/my_toolbar" />
+
+    <EditText
+        android:id="@+id/fullNameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="@string/prompt_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/oldPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="@string/old_password"
+        android:inputType="textPassword"
+        app:passwordToggleEnabled="true" />
+
+    <EditText
+        android:id="@+id/newPasswordEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="@string/new_password"
+        android:inputType="textPassword"
+        app:passwordToggleEnabled="true" />
+
+    <EditText
+        android:id="@+id/confirmNewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="@string/confirm_new_password"
+        android:inputType="textPassword"
+        app:passwordToggleEnabled="true" />
+
+    <EditText
+        android:id="@+id/phoneEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="@string/prompt_phone"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/submitEditButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/confirm" />
+
+</LinearLayout>

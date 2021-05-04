@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "418793633481",
+    "project_id": "rendefood",
+    "storage_bucket": "rendefood.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418793633481:android:78fcdf7a4c42474858bf18",
+        "android_client_info": {
+          "package_name": "eng.asu.rendefood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418793633481-ipg8uq1v2um845ar8rhqti4c96lstclk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKE7CPKLzPwUu_6rRAOpUIzX8zWqKlp_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418793633481-ipg8uq1v2um845ar8rhqti4c96lstclk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

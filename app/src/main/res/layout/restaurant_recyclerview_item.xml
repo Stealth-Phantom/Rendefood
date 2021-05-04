@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    tools:context=".ui.MainActivity">
+
+    <ImageView
+        android:id="@+id/restaurantImagePlaceholder"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/food"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+    <TextView
+        android:id="@+id/reservedRestaurantPlaceHolder"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/restaurant_name_placeholder"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/restaurantImagePlaceholder"
+        app:layout_constraintTop_toTopOf="@+id/restaurantImagePlaceholder" />
+
+    <TextView
+        android:id="@+id/restaurantCategroyPlaceholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/restaurant_category_placeholder"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/reservedRestaurantPlaceHolder"
+        app:layout_constraintTop_toBottomOf="@+id/reservedRestaurantPlaceHolder" />
+
+    <TextView
+        android:id="@+id/restaurantStatusPlaceholder"
+        android:layout_width="54dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="36dp"
+        android:text="@string/restaurant_status_placeholder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/reservedRestaurantPlaceHolder"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

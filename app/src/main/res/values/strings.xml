@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Rendefood</string>
+    <string name="restaurant_name_placeholder">Fake Restaurant</string>
+    <string name="restaurant_status_placeholder">Nearly Closed</string>
+    <string name="restaurant_category_placeholder">Crepes and Waffles</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_password">Password</string>
+    <string name="new_password">New Password (Optional)</string>
+    <string name="old_password">Old Password</string>
+    <string name="prompt_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="prompt_phone">Phone</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_in">Sign in</string>
+    <string name="registeration">Register</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="welcome">Welcome, Where would you like to eat? :)</string>
+    <string name="reserve_now">Reserve Now!</string>
+    <string name="score">Review score: </string>
+    <string name="location">Location:</string>
+    <string name="reviews">Reviews</string>
+    <string name="opening_times">Opening Times:</string>
+    <string name="menu">Menu</string>
+    <string name="menu_item_name">Fake MenuItem</string>
+    <string name="menu_item_desc">laurm ipsum</string>
+    <string name="menu_item_price">120.00 L.E.</string>
+    <string name="reviewer_name">Fake User</string>
+    <string name="reviewer_opinion">This place is good man</string>
+    <string name="edit_info">Edit Info</string>
+    <string name="change_mail">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="reservation">Reservation History</string>
+    <string name="promotions">Get Reminder Notification</string>
+    <string name="reserved_seats">Reserved Seats</string>
+    <string name="reservation_time">Reservation Time</string>
+    <string name="reservation_time_placeholder">Change time here</string>
+    <string name="reservation_date">Reservation Date</string>
+    <string name="reservation_date_placeholder">Change date here</string>
+    <string name="submit_reservation">Submit</string>
+    <string name="reserved_by">Reserved by</string>
+    <string name="complete_reservation">Complete</string>
+    <string name="cancel_reservation">Cancel</string>
+    <string name="confirm">Confirm!</string>
+    <string name="currentReservations">Current Reservations</string>
+    <string name="fake_time">23:23</string>
+    <string name="fake_date">22/22/2022</string>
+    <string name="review_hint">Describe your experience here</string>
+    <string name="submit_review">Submit Review</string>
+    <string name="add_review">Add Review</string>
+
+
+</resources>
